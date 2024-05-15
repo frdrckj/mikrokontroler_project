@@ -1,0 +1,20 @@
+{
+  "name": "control-arduino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@serialport/parser-readline": "^12.0.0",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "serialport": "^12.0.0",
+    "socket.io": "^4.7.5"
+  }
+}
